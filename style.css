@@ -53,7 +53,6 @@ html, body{
     width: 100%;
     padding: 0 40%;
     box-sizing: border-box;
-    content:url('resources/tamalito/1.png');
 }
 
 .tamalito-slideshow {
@@ -71,5 +70,6 @@ html, body{
     height: 100%;
     object-fit: contain;
     opacity: 1;
+    border-radius: 20px;
     transition: opacity 1s;
 }
