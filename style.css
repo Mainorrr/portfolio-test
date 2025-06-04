@@ -1,0 +1,44 @@
+.navbar {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+    width: 100%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    background-color: rgb(203, 203, 203);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.dashboard{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: rgb(147, 146, 146);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.tamalitoDesc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 1% 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.tamalito{
+    align-items: center;
+    justify-content: space-between;
+    display:flex;
+    width: 100%;
+    padding: 0 40%;
+    box-sizing: border-box;
+    content:url('resources/tamalito.png');
+}
