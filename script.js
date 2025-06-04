@@ -5,6 +5,12 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 document.addEventListener("DOMContentLoaded", function() {
+    fetch('footer.html')
+        .then(res => res.text())
+        .then(html => document.getElementById('footer-placeholder').innerHTML = html);
+});
+
+document.addEventListener("DOMContentLoaded", function() {
     // Fetch existing navbar
     fetch('navbar.html')
         .then(res => res.text())
